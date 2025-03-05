@@ -279,7 +279,9 @@ function Edit({
       style: {
         fontFamily: fontFamily
       },
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h1", {
+        children: "My Rough Text"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
           title: "Text Size",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
@@ -465,14 +467,6 @@ function Edit({
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
                   className: "caption",
                   style: {
-                    // display: 'flex',
-                    // alignItems: alignItems,
-                    // textAlign: alignment,
-                    // display: 'flex',
-                    // alignItems: 'center',
-                    // justifyContent: justifyContent,
-                    // width: '100%',
-                    // minHeight: '100px'
                     display: "flex",
                     alignItems: alignItems,
                     justifyContent: justifyContent,

@@ -207,6 +207,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<>
 			<div style={{ fontFamily: fontFamily }}>
+				{<h1>My Rough Text</h1>}
 				<InspectorControls>
 					<PanelBody title="Text Size">
 						<SelectControl
