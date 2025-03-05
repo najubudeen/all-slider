@@ -1,0 +1,101 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/custom-image-slider/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-custom-image-slider {
+  border: 1px dotted #f00;
+}
+
+.panel-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.panel-column label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.caption .title {
+  color: inherit; /* Ensure that it inherits the color from inline styles */
+}
+
+.desktop {
+  font-size: 18px;
+}
+
+.tablet {
+  font-size: 18px;
+}
+
+.mobile {
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .tablet {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .mobile {
+    font-size: 14px;
+  }
+}
+.slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+
+.caption .title, .caption .line {
+  background-color: red;
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.nav-btn {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map*/

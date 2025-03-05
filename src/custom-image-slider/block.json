@@ -1,0 +1,87 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/custom-image-slider",
+	"version": "0.1.0",
+	"title": "Custom Image Slider",
+	"category": "widgets",
+	"icon": "smiley",
+	"attributes": {
+		"sliderWidth": {
+			"type": "number",
+			"default": "10"
+		},
+		"sliderHeight": {
+			"type": "number",
+			"default": "5"
+		},
+		"content": {
+            "type": "string",
+            "source": "html",
+            "selector": "div"
+        },
+		"content2": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        },
+		"alignment": {
+            "type": "string",
+            "default": "none"
+        },
+		"alignItems": {
+            "type": "string",
+            "default": "stretch"
+        },
+        "justifyContent": {
+            "type": "string",
+            "default": "flex-start"
+        },
+        "textColors": {
+            "type": "string",
+            "default": "#000000"
+        },
+		"fontSize": {
+            "type": "number",
+            "default": 16
+        },
+		"fontWeight":{
+			"type":"string",
+			"default":"normal"
+		},
+		"fontFamily": {
+            "type": "string",
+            "default": "Arial"
+        },
+		"textSize": {
+            "type": "string",
+            "default": "desktop"
+        }
+        
+	},
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"shadow": true,
+		"html": false,
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+			
+		}
+	},
+	"textdomain": "custom-image-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"selectors": {
+		"root": ".wp-block-create-block-custom-image-slider",
+		"color": ".wp-block-create-block-custom-image-slider .slider .slides .slide .caption .wp-block-create-block-custom-image-slider-title"
+	},
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

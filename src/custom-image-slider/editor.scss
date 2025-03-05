@@ -1,0 +1,169 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-custom-image-slider {
+	border: 1px dotted #f00;
+}
+.panel-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.panel-column label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.caption .title {
+    color: inherit; /* Ensure that it inherits the color from inline styles */
+  }
+// .slider {
+//     position: relative;
+//     max-width: 100%;
+//     margin: auto;
+//     overflow: hidden;
+// }
+
+// .slides {
+//     display: flex;
+//     transition: transform 0.5s ease-in-out;
+// }
+
+// .slide {
+//     min-width: 100%;
+//     box-sizing: border-box;
+//     position: relative;
+// }
+
+// .slide img {
+//     width: 100%;
+//     vertical-align: middle;
+// }
+
+// .caption {
+//     position: absolute;
+//     top: 0px;
+//     bottom: 0px;
+//     left: 0px;
+//     right: 0px;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+//     color: white;
+//     background-color: rgba(0, 0, 0, 0.10);
+//     padding: 10px 0;
+//     padding-left: 50px;
+// }
+
+// .navigation {
+//     position: absolute;
+//     top: 50%;
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     transform: translateY(-50%);
+// }
+
+// .navigation button {
+//     background-color: rgba(0, 0, 0, 0.5);
+//     color: white;
+//     border: none;
+//     padding: 10px;
+//     cursor: pointer;
+//     transition: background-color 0.3s;
+// }
+
+// .navigation button:hover {
+//     background-color: rgba(0, 0, 0, 0.8);
+// }
+
+// /* Responsive adjustments */
+// @media (max-width: 600px) {
+//     .caption {
+//         font-size: 14px;
+//         bottom: 10px;
+//     }
+
+//     .navigation button {
+//         padding: 5px;
+//     }
+// }
+.desktop {
+    font-size: 18px;
+}
+
+.tablet {
+    font-size: 18px;
+}
+
+.mobile {
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+    .tablet {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile {
+        font-size: 14px;
+    }
+}
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    background: rgba(0, 0, 0,0.50);
+    // display: flex;
+    flex-direction: column;
+}
+.caption .title,.caption .line{
+    background-color: red;
+}
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+// #your-div-id {
+//     background-color: #ffcc00 !important;
+// }
